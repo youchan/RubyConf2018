@@ -1,0 +1,36 @@
+.gibier .page_0 p.icon {
+  margin: 0;
+  position: relative;
+  left: 32em;
+  top: -3em;
+}
+
+.gibier .page-container {
+  background-image: url(../images/background.png)
+}
+
+.gibier .slide {
+  color: #3d3550;
+}
+
+.gibier .page_0 .page-header {
+  top: 20%;
+}
+
+.gibier .page_0 .page-content {
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  right: 10px;
+  top: -100px;
+}
+
+.heart img {
+  width: 400px;
+}
+
+.pink {
+  color: #fe8aac;
+}
