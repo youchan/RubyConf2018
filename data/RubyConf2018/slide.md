@@ -137,4 +137,13 @@ Hyalite.render(Hyalite.create_element(AppView, {name: "John"}), $document['.cont
 * Isomorphic Programming
 * <span {class:"pink"}>dRuby on Browser(How to use WebSocket)</span>
 
+## Isomorphic programming
+
+Isomorphic programming mainly has the following two merits.
+
+* Server-side rendering
+    - performance improved 
+    - for SEO
+* Shared class difinition
+    * Transparency access to the server-side objects from client-side.
 
