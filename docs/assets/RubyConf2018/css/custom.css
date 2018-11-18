@@ -1,0 +1,78 @@
+.gibier .page_0 p.icon {
+  margin: 0;
+  position: relative;
+  left: 32em;
+  top: -3em;
+}
+
+.gibier .page-container {
+  background-image: url(../images/background.png)
+}
+
+.gibier .slide {
+  color: #3d3550;
+}
+
+.gibier a:link {
+  color: #fe8aac;
+}
+
+.gibier a:visited {
+  color: #fe8aac;
+}
+
+.gibier a:hover {
+  color: #fe8aac;
+}
+
+.gibier a:active {
+  color: #fe8aac;
+}
+
+.gibier .page_0 .page-header {
+  top: 20%;
+}
+
+.gibier .page_0 .page-content {
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  right: 10px;
+  top: -100px;
+}
+
+.heart img {
+  width: 400px;
+}
+
+.pink {
+  color: #fe8aac;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.page li {
+  background: url('../images/icon.svg') no-repeat left top;
+  background-size: 54px;
+  padding-left: 80px;
+  padding-bottom: 24px;
+}
+
+.page p.portlait-right-small {
+  text-align: right;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.page p.portlait-right-small img {
+  width: 240px;
+  float: right;
+  margin-right: 200px;
+  border-radius: 20px;
+  border: solid 2px #000000;
+}

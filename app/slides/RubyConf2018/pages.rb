@@ -625,8 +625,8 @@ def content
                     li(nil, "dRuby can be customized protocol layer."),
                   li(nil, "I implemented WebSocket protocol for dRuby and a dRuby implementation of Opal."),
                   ul(nil,
-                    li(nil, "drb-websocket"),
-                    li(nil, "opal-drb")
+                    li(nil, "drb-websocket: ",a({href:"https://github.com/youchan/drb-websocket", target:"_brank"}, "https://github.com/youchan/drb-websocket")),
+                    li(nil, "opal-drb: ",a({href:"https://github.com/youchan/opal-drb", target:"_brank"}, "https://github.com/youchan/opal-drb"))
       )
       )
   end
