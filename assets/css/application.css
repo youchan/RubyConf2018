@@ -153,6 +153,17 @@ body {
   margin: 0;
 }
 
+.page p.full {
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.page p.full img {
+  width: 100%;
+}
+
 .page p.large {
   text-align: center;
   font-size: 1.6em;

@@ -20,24 +20,6 @@ GIT
   specs:
     opal-websocket (0.1.0)
 
-PATH
-  remote: ../gibier
-  specs:
-    gibier (0.8.13)
-      eventmachine
-      haml
-      opal
-      rack (~> 1.6)
-      redcarpet
-      rouge (~> 1.10)
-      sass
-      sinatra
-      sinatra-contrib
-      sinatra-websocket
-      thin
-      thor
-      unindent
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -51,7 +33,23 @@ GEM
       addressable (>= 2.1.1)
       eventmachine (>= 0.12.9)
     eventmachine (1.2.7)
-    ffi (1.9.18)
+    ffi (1.9.25)
+    fssm (0.2.10)
+    gibier (0.8.14)
+      eventmachine
+      fssm
+      haml
+      opal
+      rack (~> 1.6)
+      redcarpet
+      rouge (~> 1.10)
+      sass
+      sinatra
+      sinatra-contrib
+      sinatra-websocket
+      thin
+      thor
+      unindent
     haml (5.0.4)
       temple (>= 0.8.0)
       tilt
@@ -118,8 +116,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ffi (= 1.9.18)
-  gibier!
+  gibier
   hyalite
   opal-haml!
   opal-router!
